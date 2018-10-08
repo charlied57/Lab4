@@ -123,32 +123,32 @@ Lab4/fast:
 	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/build
 .PHONY : Lab4/fast
 
-main.o: main.cpp.o
+VectorDriver.o: VectorDriver.cpp.o
 
-.PHONY : main.o
+.PHONY : VectorDriver.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/main.cpp.o
-.PHONY : main.cpp.o
+VectorDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/VectorDriver.cpp.o
+.PHONY : VectorDriver.cpp.o
 
-main.i: main.cpp.i
+VectorDriver.i: VectorDriver.cpp.i
 
-.PHONY : main.i
+.PHONY : VectorDriver.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/main.cpp.i
-.PHONY : main.cpp.i
+VectorDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/VectorDriver.cpp.i
+.PHONY : VectorDriver.cpp.i
 
-main.s: main.cpp.s
+VectorDriver.s: VectorDriver.cpp.s
 
-.PHONY : main.s
+.PHONY : VectorDriver.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/main.cpp.s
-.PHONY : main.cpp.s
+VectorDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/VectorDriver.cpp.s
+.PHONY : VectorDriver.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Lab4"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... VectorDriver.o"
+	@echo "... VectorDriver.i"
+	@echo "... VectorDriver.s"
 .PHONY : help
 
 

@@ -57,27 +57,27 @@ include CMakeFiles/Lab4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab4.dir/flags.make
 
-CMakeFiles/Lab4.dir/main.cpp.o: CMakeFiles/Lab4.dir/flags.make
-CMakeFiles/Lab4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Charlie/Google Drive/COSC 2030/Lab4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/main.cpp.o -c "/Users/Charlie/Google Drive/COSC 2030/Lab4/main.cpp"
+CMakeFiles/Lab4.dir/VectorDriver.cpp.o: CMakeFiles/Lab4.dir/flags.make
+CMakeFiles/Lab4.dir/VectorDriver.cpp.o: ../VectorDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Charlie/Google Drive/COSC 2030/Lab4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/VectorDriver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/VectorDriver.cpp.o -c "/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp"
 
-CMakeFiles/Lab4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Charlie/Google Drive/COSC 2030/Lab4/main.cpp" > CMakeFiles/Lab4.dir/main.cpp.i
+CMakeFiles/Lab4.dir/VectorDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/VectorDriver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp" > CMakeFiles/Lab4.dir/VectorDriver.cpp.i
 
-CMakeFiles/Lab4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Charlie/Google Drive/COSC 2030/Lab4/main.cpp" -o CMakeFiles/Lab4.dir/main.cpp.s
+CMakeFiles/Lab4.dir/VectorDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/VectorDriver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp" -o CMakeFiles/Lab4.dir/VectorDriver.cpp.s
 
 # Object files for target Lab4
 Lab4_OBJECTS = \
-"CMakeFiles/Lab4.dir/main.cpp.o"
+"CMakeFiles/Lab4.dir/VectorDriver.cpp.o"
 
 # External object files for target Lab4
 Lab4_EXTERNAL_OBJECTS =
 
-Lab4: CMakeFiles/Lab4.dir/main.cpp.o
+Lab4: CMakeFiles/Lab4.dir/VectorDriver.cpp.o
 Lab4: CMakeFiles/Lab4.dir/build.make
 Lab4: CMakeFiles/Lab4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Charlie/Google Drive/COSC 2030/Lab4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab4"

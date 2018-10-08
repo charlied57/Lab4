@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Charlie/Google Drive/COSC 2030/Lab4/main.cpp">
+		<Unit filename="/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.h">
 			<Option target="Lab4"/>
 		</Unit>
 		<Unit filename="/Users/Charlie/Google Drive/COSC 2030/Lab4/CMakeLists.txt">

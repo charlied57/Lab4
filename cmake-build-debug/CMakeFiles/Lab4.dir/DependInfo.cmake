@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Charlie/Google Drive/COSC 2030/Lab4/main.cpp" "/Users/Charlie/Google Drive/COSC 2030/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o"
+  "/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp" "/Users/Charlie/Google Drive/COSC 2030/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/VectorDriver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

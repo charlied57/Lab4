@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab4.dir/main.cpp.o"
+  "CMakeFiles/Lab4.dir/VectorDriver.cpp.o"
   "Lab4.pdb"
   "Lab4"
 )
