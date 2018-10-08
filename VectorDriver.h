@@ -17,6 +17,7 @@ typedef unsigned long ulong;
 using std::cout;
 using std::endl;
 using std::vector;
+using std::cin;
 
 // fill vector that has pre-allocated space with consecutive numbers
 void fill_vector(vector<short> &data) {
@@ -40,7 +41,8 @@ void print(const vector<short> &data) {
 
 // use iterator to sum the elements of a vector
 short compute_sum(const vector<short> &data) {
-  std::vector<short>::const_iterator iter = data.begin();
+  //std::vector<short>::const_iterator iter = data.begin();
+  auto iter = data.begin();
 
   short sum = 0;
   while (iter != data.end()) {
@@ -52,6 +54,21 @@ short compute_sum(const vector<short> &data) {
 }
 
 // TODO: implement add_numbers
-// TODO: implement print_even
+
+void print_even(const vector<short> &data) {
+    if (data.empty()) {
+        cout << "<empty>";
+    } else {
+        cout << "<" << data.at(0);
+        for (ulong i=1; i<data.size(); i++) {
+            if (i % 2 == 0){
+                cout << ", " << data.at(i);
+            }
+        }
+        cout << ">";
+    }
+}
+
+
 // TODO: implement is_present
 // TODO: implement std::sort function
