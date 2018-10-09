@@ -73,18 +73,17 @@ void print_even(const vector<short> &data) {
     }
 }
 
-bool is_present(const vector<short> &data, short value){
+void is_present(const vector<short> &data, short value){
     auto iter = data.begin();
     while (iter != data.end()) {
         if (*iter == value){
             cout << value << " is present." << endl;
-        }
-    iter++;
+            }
+        iter++;
     }
+    cout << value << " is not present." << endl;
 }
 
-//void sort(const vector<short> &data){
-//    std::sort(data.begin(), data.end());
-//}
-
-// TODO: implement std::sort function
+void sort(vector<short> &data){
+    std::sort(data.begin(), data.end());
+}
