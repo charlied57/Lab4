@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.cpp
+VectorDriver.h
+/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.h
+algorithm
+/Users/Charlie/Google Drive/COSC 2030/Lab4/algorithm
+
+/Users/Charlie/Google Drive/COSC 2030/Lab4/VectorDriver.h
+iostream
+-
+vector
+-
+
