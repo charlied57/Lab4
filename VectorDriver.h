@@ -53,7 +53,11 @@ short compute_sum(const vector<short> &data) {
   return sum;
 }
 
-// TODO: implement add_numbers
+void add_numbers(vector<short> &data){
+    for (int i = 0; i < 10; i++){
+        data.push_back(rand());
+    }
+}
 
 void print_even(const vector<short> &data) {
     if (data.empty()) {
@@ -69,6 +73,18 @@ void print_even(const vector<short> &data) {
     }
 }
 
+bool is_present(const vector<short> &data, short value){
+    auto iter = data.begin();
+    while (iter != data.end()) {
+        if (*iter == value){
+            cout << value << " is present." << endl;
+        }
+    iter++;
+    }
+}
 
-// TODO: implement is_present
+//void sort(const vector<short> &data){
+//    std::sort(data.begin(), data.end());
+//}
+
 // TODO: implement std::sort function
